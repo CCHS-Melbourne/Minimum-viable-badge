@@ -1,4 +1,4 @@
-update=26/05/2017 9:33:57 AM
+update=6/06/2017 12:44:51 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=subs/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
 LibName31=libs/cn3063
 LibName32=libs/cp2102
 LibName33=libs/NCP5501
+LibName34=libs/mcp73831
