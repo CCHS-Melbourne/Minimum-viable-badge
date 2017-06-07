@@ -536,7 +536,7 @@ U 1 1 59278B49
 P 2850 6650
 F 0 "C1" H 2875 6750 50  0000 L CNN
 F 1 "10uF" H 2875 6550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2888 6500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 6500 50  0001 C CNN
 F 3 "" H 2850 6650 50  0000 C CNN
 	1    2850 6650
 	1    0    0    -1  
@@ -1002,7 +1002,7 @@ U 1 1 5929E321
 P 5950 5400
 F 0 "P4" H 5950 6650 50  0000 C CNN
 F 1 "eInk" V 6050 5400 50  0000 C CNN
-F 2 "" H 5950 5400 50  0001 C CNN
+F 2 "libs:FPC_0.5mm_Pitch_24_Pin" H 5950 5400 50  0001 C CNN
 F 3 "" H 5950 5400 50  0000 C CNN
 	1    5950 5400
 	-1   0    0    1   
@@ -1032,11 +1032,11 @@ Text Label 6400 5250 2    60   ~ 0
 MOSI
 Text Label 6400 5350 2    60   ~ 0
 SCLK
-Text Label 6400 5550 2    60   ~ 0
-D/C
-Text Label 6400 5650 2    60   ~ 0
-RST
 Text Label 6400 5450 2    60   ~ 0
+D/C
+Text Label 6400 5550 2    60   ~ 0
+RST
+Text Label 6400 5650 2    60   ~ 0
 CS
 Wire Wire Line
 	6150 5650 6400 5650
@@ -1266,4 +1266,40 @@ Wire Wire Line
 Wire Wire Line
 	9250 5450 9200 5450
 Connection ~ 9250 5450
+$Comp
+L CONN_01X01 P13
+U 1 1 5937F8C7
+P 3700 2800
+F 0 "P13" H 3700 2900 50  0000 C CNN
+F 1 "MECH" V 3800 2800 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3700 2800 50  0001 C CNN
+F 3 "" H 3700 2800 50  0000 C CNN
+	1    3700 2800
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3700 3000
+$Comp
+L CONN_01X01 P11
+U 1 1 593802FC
+P 3450 2800
+F 0 "P11" H 3450 2900 50  0000 C CNN
+F 1 "MECH" V 3550 2800 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3450 2800 50  0001 C CNN
+F 3 "" H 3450 2800 50  0000 C CNN
+	1    3450 2800
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3450 3000
+$Comp
+L CONN_01X01 P12
+U 1 1 593803BC
+P 3450 3200
+F 0 "P12" H 3450 3300 50  0000 C CNN
+F 1 "MECH" V 3550 3200 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 3450 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0000 C CNN
+	1    3450 3200
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3450 3400
 $EndSCHEMATC
