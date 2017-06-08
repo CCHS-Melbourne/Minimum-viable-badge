@@ -1130,9 +1130,9 @@ Wire Wire Line
 	9250 4950 9300 4950
 Text Label 5750 2500 0    60   ~ 0
 T1
-Text Label 8700 4500 0    60   ~ 0
-T0
 Text Label 8700 4750 0    60   ~ 0
+T0
+Text Label 8700 4500 0    60   ~ 0
 T1
 $Comp
 L CONN_01X02 P6
