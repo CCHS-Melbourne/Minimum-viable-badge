@@ -1,4 +1,4 @@
-update=6/06/2017 12:44:51 AM
+update=13/06/2017 11:08:31 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,7 +59,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=subs/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
-LibName31=libs/cn3063
-LibName32=libs/cp2102
-LibName33=libs/NCP5501
-LibName34=libs/mcp73831
+LibName31=libs/cp2102
+LibName32=libs/NCP5501
+LibName33=libs/mcp73831
