@@ -251,6 +251,10 @@ F 0 "R8" V 10780 800 50  0000 C CNN
 F 1 "470R" V 10700 800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10630 800 50  0001 C CNN
 F 3 "" H 10700 800 50  0000 C CNN
+F 4 "311-470HRCT-ND" V 10800 800 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" V 10800 800 60  0001 C CNN "Link"
+F 6 "RC0603FR-07470RL" V 10800 800 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 10800 800 60  0001 C CNN "Unit Cost"
 	1    10700 800 
 	0    1    1    0   
 $EndComp
@@ -313,6 +317,10 @@ F 0 "R9" V 10780 2000 50  0000 C CNN
 F 1 "470R" V 10700 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10630 2000 50  0001 C CNN
 F 3 "" H 10700 2000 50  0000 C CNN
+F 4 "311-470HRCT-ND" V 10800 800 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" V 10800 800 60  0001 C CNN "Link"
+F 6 "RC0603FR-07470RL" V 10800 800 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 10800 800 60  0001 C CNN "Unit Cost"
 	1    10700 2000
 	0    1    1    0   
 $EndComp
@@ -375,6 +383,10 @@ F 0 "R7" V 10580 3600 50  0000 C CNN
 F 1 "12K" V 10500 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10430 3600 50  0001 C CNN
 F 3 "" H 10500 3600 50  0000 C CNN
+F 4 "311-12.0KHRCT-ND" V 1100 5000 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V 1100 5000 60  0001 C CNN "Link"
+F 6 "RC0603FR-0712KL" V 1100 5000 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 1100 5000 60  0001 C CNN "Unit Cost"
 	1    10500 3600
 	-1   0    0    1   
 $EndComp
@@ -405,6 +417,10 @@ F 0 "P2" H 1225 825 50  0000 C CNN
 F 1 "USB" H 900 1150 50  0000 C CNN
 F 2 "libs:USB-MICRO-5pin_PTHMOUNT-Amphenol.10118194-0001LF" V 850 850 50  0001 C CNN
 F 3 "" V 850 850 50  0000 C CNN
+F 4 "609-4618-1-ND" H 950 1800 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/amphenol-fci/10118194-0001LF/609-4618-1-ND/2785382" H 950 1800 60  0001 C CNN "Link"
+F 6 "10118194-0001LF" H 950 1800 60  0001 C CNN "Manufacturer PN"
+F 7 "0.46" H 950 1800 60  0001 C CNN "Unit Cost"
 	1    900  950 
 	0    -1   1    0   
 $EndComp
@@ -447,6 +463,10 @@ F 0 "U1" H 4150 5950 60  0000 C CNN
 F 1 "CP2102" H 4150 6150 60  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 4150 6000 60  0001 C CNN
 F 3 "" H 4150 6000 60  0000 C CNN
+F 4 "336-1160-1-ND" H 3800 6200 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/silicon-labs/CP2102-GMR/336-1160-1-ND/3672615" H 3800 6200 60  0001 C CNN "Link"
+F 6 "CP2102-GMR" H 3800 6200 60  0001 C CNN "Manufacturer PN"
+F 7 "2.88" H 3800 6200 60  0001 C CNN "Unit Cost"
 	1    4150 6000
 	1    0    0    -1  
 $EndComp
@@ -468,6 +488,10 @@ F 0 "C4" H 3875 7200 50  0000 L CNN
 F 1 "0.1uF" H 3875 7000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3888 6950 50  0001 C CNN
 F 3 "" H 3850 7100 50  0000 C CNN
+F 4 "311-1088-1-ND" H 2300 6550 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/CC0603KRX7R7BB104/311-1088-1-ND/302998" H 2300 6550 60  0001 C CNN "Link"
+F 6 "CC0603KRX7R7BB104" H 2300 6550 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" H 2300 6550 60  0001 C CNN "Unit Cost"
 	1    3850 7100
 	1    0    0    -1  
 $EndComp
@@ -490,6 +514,10 @@ F 0 "C3" H 3575 7200 50  0000 L CNN
 F 1 "10uF" H 3575 7000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3588 6950 50  0001 C CNN
 F 3 "" H 3550 7100 50  0000 C CNN
+F 4 "1276-2399-1-ND" H 1950 6550 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H 1950 6550 60  0001 C CNN "Link"
+F 6 "CL21A106KOCLRNC" H 1950 6550 60  0001 C CNN "Manufacturer PN"
+F 7 "0.18" H 1950 6550 60  0001 C CNN "Unit Cost"
 	1    3550 7100
 	1    0    0    -1  
 $EndComp
@@ -516,6 +544,10 @@ F 0 "C2" H 3175 6750 50  0000 L CNN
 F 1 "0.1uF" H 3175 6550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3188 6500 50  0001 C CNN
 F 3 "" H 3150 6650 50  0000 C CNN
+F 4 "311-1088-1-ND" H 2300 6550 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/CC0603KRX7R7BB104/311-1088-1-ND/302998" H 2300 6550 60  0001 C CNN "Link"
+F 6 "CC0603KRX7R7BB104" H 2300 6550 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" H 2300 6550 60  0001 C CNN "Unit Cost"
 	1    3150 6650
 	1    0    0    -1  
 $EndComp
@@ -538,6 +570,10 @@ F 0 "C1" H 2875 6750 50  0000 L CNN
 F 1 "10uF" H 2875 6550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 6500 50  0001 C CNN
 F 3 "" H 2850 6650 50  0000 C CNN
+F 4 "1276-2399-1-ND" H 1950 6550 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H 1950 6550 60  0001 C CNN "Link"
+F 6 "CL21A106KOCLRNC" H 1950 6550 60  0001 C CNN "Manufacturer PN"
+F 7 "0.18" H 1950 6550 60  0001 C CNN "Unit Cost"
 	1    2850 6650
 	1    0    0    -1  
 $EndComp
@@ -625,6 +661,10 @@ F 0 "R6" V 4380 4700 50  0000 C CNN
 F 1 "470R" V 4300 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4230 4700 50  0001 C CNN
 F 3 "" H 4300 4700 50  0000 C CNN
+F 4 "311-470HRCT-ND" V 10800 800 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" V 10800 800 60  0001 C CNN "Link"
+F 6 "RC0603FR-07470RL" V 10800 800 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 10800 800 60  0001 C CNN "Unit Cost"
 	1    4300 4700
 	0    1    1    0   
 $EndComp
@@ -669,6 +709,10 @@ F 0 "R4" V 1480 6600 50  0000 C CNN
 F 1 "12K(1%)" V 1300 6600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1330 6600 50  0001 C CNN
 F 3 "" H 1400 6600 50  0000 C CNN
+F 4 "311-12.0KHRCT-ND" V 1100 5000 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V 1100 5000 60  0001 C CNN "Link"
+F 6 "RC0603FR-0712KL" V 1100 5000 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 1100 5000 60  0001 C CNN "Unit Cost"
 	1    1400 6600
 	0    1    1    0   
 $EndComp
@@ -680,6 +724,10 @@ F 0 "R3" V 1480 5900 50  0000 C CNN
 F 1 "12K(1%)" V 1300 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1330 5900 50  0001 C CNN
 F 3 "" H 1400 5900 50  0000 C CNN
+F 4 "311-12.0KHRCT-ND" V 1100 5000 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V 1100 5000 60  0001 C CNN "Link"
+F 6 "RC0603FR-0712KL" V 1100 5000 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 1100 5000 60  0001 C CNN "Unit Cost"
 	1    1400 5900
 	0    1    1    0   
 $EndComp
@@ -729,6 +777,10 @@ F 0 "R1" V 980 3750 50  0000 C CNN
 F 1 "1M" V 900 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 830 3750 50  0001 C CNN
 F 3 "" H 900 3750 50  0000 C CNN
+F 4 "311-1.00MHRCT-ND" V 700 2850 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-071ML/311-1.00MHRCT-ND/729791" V 700 2850 60  0001 C CNN "Link"
+F 6 "RC0603FR-071ML" V 700 2850 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 700 2850 60  0001 C CNN "Unit Cost"
 	1    900  3750
 	-1   0    0    1   
 $EndComp
@@ -740,6 +792,10 @@ F 0 "R2" V 1230 4000 50  0000 C CNN
 F 1 "100K" V 1150 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1080 4000 50  0001 C CNN
 F 3 "" H 1150 4000 50  0000 C CNN
+F 4 "311-100KGRCT-ND" V 950 3100 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603JR-07100KL/311-100KGRCT-ND/729645" V 950 3100 60  0001 C CNN "Link"
+F 6 "RC0603JR-07100KL" V 950 3100 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 950 3100 60  0001 C CNN "Unit Cost"
 	1    1150 4000
 	0    -1   -1   0   
 $EndComp
@@ -751,6 +807,10 @@ F 0 "R5" V 1630 4000 50  0000 C CNN
 F 1 "10K" V 1550 4000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1480 4000 50  0001 C CNN
 F 3 "" H 1550 4000 50  0000 C CNN
+F 4 "311-10KGRCT-ND" V 1300 3100 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603JR-0710KL/311-10KGRCT-ND/729647" V 1300 3100 60  0001 C CNN "Link"
+F 6 "RC0603JR-0710KL" V 1300 3100 60  0001 C CNN "Manufacturer PN"
+F 7 "0.10" V 1300 3100 60  0001 C CNN "Unit Cost"
 	1    1550 4000
 	0    -1   -1   0   
 $EndComp
@@ -814,6 +874,10 @@ F 0 "F1" H 1650 2650 50  0000 C CNN
 F 1 "1A PTC" H 1450 2550 50  0000 C CNN
 F 2 "Diodes_SMD:D_1206" H 1550 2600 50  0001 C CNN
 F 3 "" H 1550 2600 50  0000 C CNN
+F 4 "507-1786-1-ND" H 1650 850 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" H 1650 850 60  0001 C CNN "Link"
+F 6 "0ZCH0050FF2G" H 1650 850 60  0001 C CNN "Manufacturer PN"
+F 7 "0.12" H 1650 850 60  0001 C CNN "Unit Cost"
 	1    1550 2600
 	1    0    0    -1  
 $EndComp
@@ -827,6 +891,10 @@ F 0 "D1" H 1900 2950 50  0000 C CNN
 F 1 "SS14" H 1900 2750 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMA" H 1900 2850 50  0001 C CNN
 F 3 "" H 1900 2850 50  0000 C CNN
+F 4 "SS14CT-ND" H 2000 1150 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/fairchild-semiconductor/SS14/SS14CT-ND/965729" H 2000 1150 60  0001 C CNN "Link"
+F 6 "SS14" H 2000 1150 60  0001 C CNN "Manufacturer PN"
+F 7 "0.39" H 2000 1150 60  0001 C CNN "Unit Cost"
 	1    1900 2850
 	0    1    1    0   
 $EndComp
@@ -1303,6 +1371,10 @@ F 0 "Q2" H 2250 6650 50  0000 R CNN
 F 1 "S8050" H 2400 6550 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2150 6700 50  0001 C CNN
 F 3 "" H 1950 6600 50  0000 C CNN
+F 4 "MMSS8050-H-TPMSCT-ND" H 1950 5900 60  0001 C CNN "Digikey PN"
+F 5 "http://www.digikey.com.au/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945" H 1950 5900 60  0001 C CNN "Link"
+F 6 "MMSS8050-H-TP" H 1950 5900 60  0001 C CNN "Manufacture PN"
+F 7 "0.20" H 1950 5900 60  0001 C CNN "Cost"
 	1    1950 6600
 	1    0    0    1   
 $EndComp
