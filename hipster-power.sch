@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:minimum-viable-badge-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -74,9 +75,11 @@ F 3 "" H 3800 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-minimum-viable-badge D3
 U 1 1 59282B08
 P 3400 2900
+AR Path="/59282B08" Ref="D3"  Part="1" 
+AR Path="/592826E7/59282B08" Ref="D3"  Part="1" 
 F 0 "D3" H 3400 3000 50  0000 C CNN
 F 1 "CHRG" H 3400 2800 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 3400 2900 50  0001 C CNN
@@ -124,9 +127,7 @@ F 3 "" H 5000 2850 50  0000 C CNN
 $EndComp
 Text Label 2300 2550 0    60   ~ 0
 VIN
-Text HLabel 5500 2550 1    60   Input ~ 0
-VBAT
-Text Label 6050 2550 2    60   ~ 0
+Text Label 3500 1100 2    60   ~ 0
 UNREG_V
 $Comp
 L SPST SW3
@@ -139,10 +140,10 @@ F 3 "" H 2850 4350 50  0000 C CNN
 	1    2850 4350
 	1    0    0    -1  
 $EndComp
-Text Label 2100 4350 0    60   ~ 0
+Text Label 1950 4350 0    60   ~ 0
 UNREG_V
 Wire Wire Line
-	2100 4350 2350 4350
+	1950 4350 2350 4350
 $Comp
 L NCP5501 U3
 U 1 1 59286CBF
@@ -191,9 +192,11 @@ F 7 "0.60" H 4750 4600 60  0001 C CNN "Unit Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-minimum-viable-badge D4
 U 1 1 59287320
 P 5200 4550
+AR Path="/59287320" Ref="D4"  Part="1" 
+AR Path="/592826E7/59287320" Ref="D4"  Part="1" 
 F 0 "D4" H 5200 4650 50  0000 C CNN
 F 1 "POWER" H 5200 4450 50  0000 C CNN
 F 2 "" H 5200 4550 50  0001 C CNN
@@ -215,11 +218,17 @@ $EndComp
 Wire Wire Line
 	5200 4350 5200 4250
 Wire Wire Line
-	4300 4350 4950 4350
+	4300 4350 4400 4350
+Wire Wire Line
+	4400 4350 4750 4350
+Wire Wire Line
+	4750 4350 4950 4350
 Wire Wire Line
 	4950 4350 4950 3900
 Wire Wire Line
-	4950 3900 5450 3900
+	4950 3900 5200 3900
+Wire Wire Line
+	5200 3900 5450 3900
 Wire Wire Line
 	5200 3900 5200 3950
 Wire Wire Line
@@ -229,9 +238,15 @@ Wire Wire Line
 	4400 4450 4400 4350
 Connection ~ 4400 4350
 Wire Wire Line
-	3900 4650 3900 4900
+	3900 4650 3900 4850
 Wire Wire Line
-	3900 4850 5200 4850
+	3900 4850 3900 4900
+Wire Wire Line
+	3900 4850 4400 4850
+Wire Wire Line
+	4400 4850 4750 4850
+Wire Wire Line
+	4750 4850 5200 4850
 Wire Wire Line
 	4400 4850 4400 4750
 Wire Wire Line
@@ -267,7 +282,11 @@ F 3 "" H 4350 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 2550 3950 2550
+	2850 2550 2950 2550
+Wire Wire Line
+	2950 2550 3400 2550
+Wire Wire Line
+	3400 2550 3950 2550
 Wire Wire Line
 	3400 2700 3400 2550
 Connection ~ 3400 2550
@@ -288,7 +307,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 2750 4800 2750
 Wire Wire Line
-	4800 2750 4800 3100
+	4800 2750 4800 3050
+Wire Wire Line
+	4800 3050 4800 3100
 Wire Wire Line
 	4800 3050 5000 3050
 Wire Wire Line
@@ -330,8 +351,83 @@ $EndComp
 Wire Wire Line
 	5300 3100 5300 3000
 Wire Wire Line
-	4750 2550 6050 2550
+	4750 2550 5300 2550
+Wire Wire Line
+	5300 2550 5550 2550
 Wire Wire Line
 	5300 2550 5300 2700
 Connection ~ 5300 2550
+$Comp
+L Q_NPN_BEC Q?
+U 1 1 59A0FD5C
+P 2650 1200
+F 0 "Q?" H 2550 1350 50  0000 R CNN
+F 1 "S8050" V 2850 1300 50  0000 R CNN
+F 2 "" H 2850 1300 50  0000 C CNN
+F 3 "" H 2650 1200 50  0000 C CNN
+	1    2650 1200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2250 1100 0    60   Input ~ 0
+VBAT
+Text Label 3500 1450 2    60   ~ 0
+VIN
+$Comp
+L D_Schottky D?
+U 1 1 59A10ECB
+P 3000 1250
+F 0 "D?" H 3000 1350 50  0000 C CNN
+F 1 "SS14" H 3000 1150 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA" H 3000 1250 50  0001 C CNN
+F 3 "" H 3000 1250 50  0000 C CNN
+	1    3000 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59A1135B
+P 2650 1900
+F 0 "#PWR?" H 2650 1650 50  0001 C CNN
+F 1 "GND" H 2650 1750 50  0000 C CNN
+F 2 "" H 2650 1900 50  0000 C CNN
+F 3 "" H 2650 1900 50  0000 C CNN
+	1    2650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59A11654
+P 2650 1650
+F 0 "R?" V 2550 1650 50  0000 C CNN
+F 1 "10K" V 2750 1650 50  0000 C CNN
+F 2 "" V 2580 1650 50  0001 C CNN
+F 3 "" H 2650 1650 50  0000 C CNN
+	1    2650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1100 2450 1100
+Wire Wire Line
+	2850 1100 3000 1100
+Wire Wire Line
+	3000 1100 3500 1100
+Connection ~ 3000 1100
+Wire Wire Line
+	2650 1400 2650 1450
+Wire Wire Line
+	2650 1450 2650 1500
+Wire Wire Line
+	2650 1450 3000 1450
+Wire Wire Line
+	3000 1450 3500 1450
+Wire Wire Line
+	3000 1400 3000 1450
+Connection ~ 3000 1450
+Connection ~ 2650 1450
+Wire Wire Line
+	2650 1800 2650 1900
+Text Label 2250 1100 0    60   ~ 0
+VBAT
+Text Label 5550 2550 2    60   ~ 0
+VBAT
 $EndSCHEMATC
