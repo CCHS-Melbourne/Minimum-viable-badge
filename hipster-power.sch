@@ -168,30 +168,6 @@ F 7 "0.60" H 4750 4600 60  0001 C CNN "Unit Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-minimum-viable-badge D4
-U 1 1 59287320
-P 5200 4550
-AR Path="/59287320" Ref="D4"  Part="1" 
-AR Path="/592826E7/59287320" Ref="D4"  Part="1" 
-F 0 "D4" H 5200 4650 50  0000 C CNN
-F 1 "POWER" H 5200 4450 50  0000 C CNN
-F 2 "" H 5200 4550 50  0001 C CNN
-F 3 "" H 5200 4550 50  0000 C CNN
-	1    5200 4550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R11
-U 1 1 59287729
-P 5200 4100
-F 0 "R11" V 5100 4100 50  0000 C CNN
-F 1 "470R" V 5300 4100 50  0000 C CNN
-F 2 "" V 5130 4100 50  0001 C CNN
-F 3 "" H 5200 4100 50  0000 C CNN
-	1    5200 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR22
 U 1 1 59287D1C
 P 3900 4900
@@ -202,7 +178,7 @@ F 3 "" H 3900 4900 50  0000 C CNN
 	1    3900 4900
 	1    0    0    -1  
 $EndComp
-Text HLabel 5450 3900 2    60   Input ~ 0
+Text HLabel 5450 4350 2    60   Input ~ 0
 3.3OUT
 $Comp
 L MCP73831 U4
@@ -299,7 +275,9 @@ F 3 "" H 2650 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2300 2550 2550 2550
+	2300 2550 2400 2550
+Wire Wire Line
+	2400 2550 2550 2550
 Wire Wire Line
 	2950 3100 2950 3000
 Wire Wire Line
@@ -310,15 +288,15 @@ Wire Wire Line
 Wire Wire Line
 	3350 4350 3500 4350
 Wire Wire Line
-	5200 4350 5200 4250
+	4300 4350 4400 4350
 Wire Wire Line
-	4300 4350 4950 4350
+	4400 4350 4750 4350
 Wire Wire Line
-	4950 4350 4950 3900
+	4750 4350 4950 4350
 Wire Wire Line
-	4950 3900 5450 3900
+	4950 4350 4950 4350
 Wire Wire Line
-	5200 3900 5200 3950
+	4950 4350 5450 4350
 Wire Wire Line
 	4750 4450 4750 4350
 Connection ~ 4750 4350
@@ -326,21 +304,21 @@ Wire Wire Line
 	4400 4450 4400 4350
 Connection ~ 4400 4350
 Wire Wire Line
-	3900 4650 3900 4900
+	3900 4650 3900 4850
 Wire Wire Line
-	3900 4850 5200 4850
+	3900 4850 3900 4900
 Wire Wire Line
 	4400 4850 4400 4750
 Wire Wire Line
 	4750 4850 4750 4750
 Connection ~ 4400 4850
-Wire Wire Line
-	5200 4850 5200 4750
-Connection ~ 4750 4850
 Connection ~ 3900 4850
-Connection ~ 5200 3900
 Wire Wire Line
-	2850 2550 3950 2550
+	2850 2550 2950 2550
+Wire Wire Line
+	2950 2550 3400 2550
+Wire Wire Line
+	3400 2550 3950 2550
 Wire Wire Line
 	3400 2700 3400 2550
 Connection ~ 3400 2550
@@ -361,7 +339,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 2750 4800 2750
 Wire Wire Line
-	4800 2750 4800 3100
+	4800 2750 4800 3050
+Wire Wire Line
+	4800 3050 4800 3100
 Wire Wire Line
 	4800 3050 5000 3050
 Wire Wire Line
@@ -370,16 +350,24 @@ Connection ~ 4800 3050
 Wire Wire Line
 	5300 3100 5300 3000
 Wire Wire Line
-	4750 2550 5550 2550
+	4750 2550 5300 2550
+Wire Wire Line
+	5300 2550 5550 2550
 Wire Wire Line
 	5300 2550 5300 2700
 Connection ~ 5300 2550
 Wire Wire Line
 	2250 1100 2450 1100
 Wire Wire Line
-	2850 1100 3500 1100
+	2850 1100 3050 1100
 Wire Wire Line
-	2650 1400 2650 1600
+	3050 1100 3500 1100
+Wire Wire Line
+	2650 1400 2650 1450
+Wire Wire Line
+	2650 1450 2650 1500
+Wire Wire Line
+	2650 1500 2650 1600
 Wire Wire Line
 	3050 1450 3050 1100
 Connection ~ 3050 1100
@@ -405,4 +393,8 @@ Wire Wire Line
 	2650 1500 2400 1500
 Wire Wire Line
 	2400 1500 2400 2550
+Wire Wire Line
+	4750 4850 4400 4850
+Wire Wire Line
+	4400 4850 3900 4850
 $EndSCHEMATC
