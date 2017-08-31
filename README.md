@@ -18,10 +18,16 @@ FEATURES
 CREDITS
 ------------
 
-This project was designed in 2017 by John Spencer
- - [John Spencer](https://github.com/mage0r)
-
 Made at hackmelbourne.org!
+
+This project was designed by the 2018 linux.conf.au Open Hardware Team!
+ - [Bob Powers](https://github.com/rdpowers)
+ - [John Spencer](https://github.com/mage0r)
+ - [Angus Gratton](https://github.com/projectgus)
+ - [Andy Gelme](https://github.com/geekscape)
+ - [Jon Oxer](https://github.com/jonoxer)
+ - [Mark Wolfe](https://github.com/wolfeidau)
+
 
 SPECIAL THANKS
 ------------
@@ -40,4 +46,4 @@ LICENSE
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
 The "license" sub-folder also contains a copy of this license in plain text format.
 
-Copyright John Spencer, Sarah Spencer, 2017
+Copyright John Spencer, Bob Powers, Angus Gratton, Andy Gelme, Jon Oxer, Mark Wolfe 2017
