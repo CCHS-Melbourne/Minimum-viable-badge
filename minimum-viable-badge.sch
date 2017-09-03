@@ -147,7 +147,7 @@ Text Label 8550 2200 2    60   ~ 0
 IO18
 Text Label 8550 2100 2    60   ~ 0
 IO19
-Text Label 8550 1900 2    60   ~ 0
+Text Label 8250 5600 2    60   ~ 0
 IO21
 Text Label 8550 1800 2    60   ~ 0
 TXD
@@ -667,17 +667,17 @@ Text Label 5600 2150 0    60   ~ 0
 BAT_MON
 Text Label 9400 5250 0    60   ~ 0
 T2
-Text Label 9400 5600 0    60   ~ 0
+Text Label 9400 5150 0    60   ~ 0
 T4
-Text Label 9400 5700 0    60   ~ 0
+Text Label 9400 5050 0    60   ~ 0
 T3
 Text Label 2750 3250 0    60   ~ 0
 BAT_MON
 Text Label 5600 2850 0    60   ~ 0
 T1
-Text Label 9400 5150 0    60   ~ 0
+Text Label 9400 5700 0    60   ~ 0
 T0
-Text Label 9400 5050 0    60   ~ 0
+Text Label 9400 5600 0    60   ~ 0
 T1
 $Comp
 L CONN_01X02 P106
@@ -764,17 +764,17 @@ F 3 "" H 9800 5150 50  0000 C CNN
 	1    9800 5150
 	1    0    0    -1  
 $EndComp
-Text Label 9050 1600 2    60   ~ 0
+Text Label 9050 2600 2    60   ~ 0
 EINK_BUSY
-Text Label 9050 1500 2    60   ~ 0
+Text Label 9050 2500 2    60   ~ 0
 EINK_RST
-Text Label 9050 1900 2    60   ~ 0
+Text Label 9050 2400 2    60   ~ 0
 EINK_D/C
-Text Label 9050 2100 2    60   ~ 0
+Text Label 9050 2300 2    60   ~ 0
 EINK_CS
 Text Label 9050 2200 2    60   ~ 0
 EINK_SCLK
-Text Label 9050 2300 2    60   ~ 0
+Text Label 9050 2100 2    60   ~ 0
 EINK_MOSI
 Wire Wire Line
 	5600 1650 6400 1650
@@ -1066,9 +1066,9 @@ F 3 "" H 10500 5450 50  0000 C CNN
 	1    10500 5450
 	1    0    0    -1  
 $EndComp
-Text Label 10150 5150 0    60   ~ 0
-T5
 Text Label 10150 5450 0    60   ~ 0
+T5
+Text Label 10150 5150 0    60   ~ 0
 T6
 Text Label 5600 2250 0    60   ~ 0
 T5
@@ -1119,9 +1119,9 @@ Wire Wire Line
 	7850 6100 7900 6100
 Wire Wire Line
 	7900 6100 7900 6150
-Text Label 8250 5300 2    60   ~ 0
+Text Label 8250 5900 2    60   ~ 0
 I2C_SDA
-Text Label 8250 5400 2    60   ~ 0
+Text Label 8250 6000 2    60   ~ 0
 I2C_SCL
 Wire Wire Line
 	7850 5300 8250 5300
@@ -1221,24 +1221,16 @@ Text Label 6100 1850 0    60   ~ 0
 I36
 Text Label 6100 1950 0    60   ~ 0
 I39
-Text Label 8250 5500 2    60   ~ 0
-IO16
-Text Label 8250 5600 2    60   ~ 0
-IO17
-Text Label 8250 5800 2    60   ~ 0
-I34
 NoConn ~ 7100 4050
 NoConn ~ 7200 4050
 NoConn ~ 7300 4050
 NoConn ~ 7400 4050
 NoConn ~ 7500 4050
 NoConn ~ 7600 4050
-Text Label 8250 5900 2    60   ~ 0
+Text Label 8250 5300 2    60   ~ 0
 I36
-Text Label 8250 5700 2    60   ~ 0
+Text Label 8250 5800 2    60   ~ 0
 IO25
-Text Label 8250 6000 2    60   ~ 0
-I39
 Wire Wire Line
 	7850 5500 8250 5500
 Wire Wire Line
@@ -1254,4 +1246,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 1150 1450 1150
 NoConn ~ 3600 2000
+Text Label 8250 5700 2    60   ~ 0
+IO0
+Text Label 8250 5500 2    60   ~ 0
+IO22
+Text Label 8250 5400 2    60   ~ 0
+IO23
+Text Label 8550 1900 2    60   ~ 0
+IO21
 $EndSCHEMATC
