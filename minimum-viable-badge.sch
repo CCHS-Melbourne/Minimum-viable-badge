@@ -57,6 +57,7 @@ F 0 "U101" H 6650 3500 60  0000 C CNN
 F 1 "ESP32-WROOM" H 7850 3500 60  0000 C CNN
 F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 7700 3600 60  0001 C CNN
 F 3 "" H 6900 2700 60  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_96410.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7350 2250
 	1    0    0    -1  
 $EndComp
@@ -171,6 +172,7 @@ F 4 "311-470HRCT-ND" V 10600 1150 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" V 10600 1150 60  0001 C CNN "Link"
 F 6 "RC0603FR-07470RL" V 10600 1150 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 10600 1150 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_25984.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    10500 1150
 	0    1    1    0   
 $EndComp
@@ -179,9 +181,10 @@ L C C101
 U 1 1 59270B98
 P 10250 1500
 F 0 "C101" H 10275 1600 50  0000 L CNN
-F 1 "1uF" H 10275 1400 50  0000 L CNN
+F 1 "1uF 6.3V" H 10275 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10288 1350 50  0001 C CNN
 F 3 "" H 10250 1500 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    10250 1500
 	1    0    0    -1  
 $EndComp
@@ -193,6 +196,7 @@ F 0 "SW101" H 10100 1610 50  0000 C CNN
 F 1 "PRGM" H 9950 1420 50  0000 C CNN
 F 2 "libs:K2-1107st" H 9950 1500 50  0001 C CNN
 F 3 "" H 9950 1500 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_119400.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    9950 1500
 	0    -1   -1   0   
 $EndComp
@@ -221,6 +225,7 @@ F 4 "311-470HRCT-ND" V 10600 1150 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" V 10600 1150 60  0001 C CNN "Link"
 F 6 "RC0603FR-07470RL" V 10600 1150 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 10600 1150 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_25984.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    10500 2350
 	0    1    1    0   
 $EndComp
@@ -229,9 +234,10 @@ L C C102
 U 1 1 59271D62
 P 10250 2700
 F 0 "C102" H 10275 2800 50  0000 L CNN
-F 1 "1uF" H 10275 2600 50  0000 L CNN
+F 1 "1uF 6.3V" H 10275 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10288 2550 50  0001 C CNN
 F 3 "" H 10250 2700 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    10250 2700
 	1    0    0    -1  
 $EndComp
@@ -243,6 +249,7 @@ F 0 "SW102" H 10100 2810 50  0000 C CNN
 F 1 "RESET" H 9950 2620 50  0000 C CNN
 F 2 "libs:K2-1107st" H 9950 2700 50  0001 C CNN
 F 3 "" H 9950 2700 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_119400.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    9950 2700
 	0    -1   -1   0   
 $EndComp
@@ -271,6 +278,7 @@ F 4 "311-12.0KHRCT-ND" V -5300 6300 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V -5300 6300 60  0001 C CNN "Link"
 F 6 "RC0603FR-0712KL" V -5300 6300 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V -5300 6300 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_101951.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4100 4900
 	-1   0    0    1   
 $EndComp
@@ -332,6 +340,7 @@ F 4 "336-1160-1-ND" H 1800 6050 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/silicon-labs/CP2102-GMR/336-1160-1-ND/3672615" H 1800 6050 60  0001 C CNN "Link"
 F 6 "CP2102-GMR" H 1800 6050 60  0001 C CNN "Manufacturer PN"
 F 7 "2.88" H 1800 6050 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_7033.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    2150 5850
 	1    0    0    -1  
 $EndComp
@@ -351,6 +360,7 @@ F 4 "311-1088-1-ND" H 300 6400 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/CC0603KRX7R7BB104/311-1088-1-ND/302998" H 300 6400 60  0001 C CNN "Link"
 F 6 "CC0603KRX7R7BB104" H 300 6400 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" H 300 6400 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_2040.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    1850 6950
 	1    0    0    -1  
 $EndComp
@@ -377,6 +387,7 @@ F 4 "1276-2399-1-ND" H -50 6400 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H -50 6400 60  0001 C CNN "Link"
 F 6 "CL21A106KOCLRNC" H -50 6400 60  0001 C CNN "Manufacturer PN"
 F 7 "0.18" H -50 6400 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_42881.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    1550 6950
 	1    0    0    -1  
 $EndComp
@@ -392,6 +403,7 @@ F 4 "311-1088-1-ND" H 300 6400 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/CC0603KRX7R7BB104/311-1088-1-ND/302998" H 300 6400 60  0001 C CNN "Link"
 F 6 "CC0603KRX7R7BB104" H 300 6400 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" H 300 6400 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_2040.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    1150 6500
 	1    0    0    -1  
 $EndComp
@@ -418,6 +430,7 @@ F 4 "1276-2399-1-ND" H -50 6400 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOCLRNC/1276-2399-1-ND/3890485" H -50 6400 60  0001 C CNN "Link"
 F 6 "CL21A106KOCLRNC" H -50 6400 60  0001 C CNN "Manufacturer PN"
 F 7 "0.18" H -50 6400 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_42881.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    850  6500
 	1    0    0    -1  
 $EndComp
@@ -463,6 +476,7 @@ F 4 "311-470HRCT-ND" V 8800 650 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-07470RL/311-470HRCT-ND/730203" V 8800 650 60  0001 C CNN "Link"
 F 6 "RC0603FR-07470RL" V 8800 650 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 8800 650 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_25984.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    2300 4550
 	0    1    1    0   
 $EndComp
@@ -493,6 +507,7 @@ F 4 "311-12.0KHRCT-ND" V 3550 5250 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V 3550 5250 60  0001 C CNN "Link"
 F 6 "RC0603FR-0712KL" V 3550 5250 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 3550 5250 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_101951.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3850 6850
 	0    1    1    0   
 $EndComp
@@ -508,6 +523,7 @@ F 4 "311-12.0KHRCT-ND" V 3550 5250 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V 3550 5250 60  0001 C CNN "Link"
 F 6 "RC0603FR-0712KL" V 3550 5250 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 3550 5250 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_101951.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3850 6150
 	0    1    1    0   
 $EndComp
@@ -524,13 +540,14 @@ L R R103
 U 1 1 5927F23C
 P 3200 3000
 F 0 "R103" V 3280 3000 50  0000 C CNN
-F 1 "1M" V 3200 3000 50  0000 C CNN
+F 1 "1M 1%" V 3200 3000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3130 3000 50  0001 C CNN
 F 3 "" H 3200 3000 50  0000 C CNN
 F 4 "311-1.00MHRCT-ND" V 3000 2100 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-071ML/311-1.00MHRCT-ND/729791" V 3000 2100 60  0001 C CNN "Link"
 F 6 "RC0603FR-071ML" V 3000 2100 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 3000 2100 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_106793.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3200 3000
 	-1   0    0    1   
 $EndComp
@@ -539,13 +556,14 @@ L R R104
 U 1 1 5927FA86
 P 3450 3250
 F 0 "R104" V 3530 3250 50  0000 C CNN
-F 1 "100K" V 3450 3250 50  0000 C CNN
+F 1 "100K 1%" V 3450 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 3250 50  0001 C CNN
 F 3 "" H 3450 3250 50  0000 C CNN
 F 4 "311-100KGRCT-ND" V 3250 2350 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603JR-07100KL/311-100KGRCT-ND/729645" V 3250 2350 60  0001 C CNN "Link"
 F 6 "RC0603JR-07100KL" V 3250 2350 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V 3250 2350 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_26546.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3450 3250
 	0    -1   -1   0   
 $EndComp
@@ -596,6 +614,7 @@ F 4 "507-1786-1-ND" H 3450 300 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209" H 3450 300 60  0001 C CNN "Link"
 F 6 "0ZCH0050FF2G" H 3450 300 60  0001 C CNN "Manufacturer PN"
 F 7 "0.12" H 3450 300 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_72573.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3350 2050
 	1    0    0    -1  
 $EndComp
@@ -611,6 +630,7 @@ F 4 "SS14CT-ND" H 3800 600 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/fairchild-semiconductor/SS14/SS14CT-ND/965729" H 3800 600 60  0001 C CNN "Link"
 F 6 "SS14" H 3800 600 60  0001 C CNN "Manufacturer PN"
 F 7 "0.39" H 3800 600 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_85512.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3700 2300
 	0    1    1    0   
 $EndComp
@@ -735,6 +755,7 @@ F 4 "MMSS8050-H-TPMSCT-ND" H 4400 6150 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945" H 4400 6150 60  0001 C CNN "Link"
 F 6 "MMSS8050-H-TP" H 4400 6150 60  0001 C CNN "Manufacture PN"
 F 7 "0.20" H 4400 6150 60  0001 C CNN "Cost"
+F 8 "http://www.szlcsc.com/product/details_106648.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4400 6150
 	1    0    0    -1  
 $EndComp
@@ -750,6 +771,7 @@ F 4 "MMSS8050-H-TPMSCT-ND" H 4400 6150 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2825945" H 4400 6150 60  0001 C CNN "Link"
 F 6 "MMSS8050-H-TP" H 4400 6150 60  0001 C CNN "Manufacture PN"
 F 7 "0.20" H 4400 6150 60  0001 C CNN "Cost"
+F 8 "http://www.szlcsc.com/product/details_106648.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4400 6850
 	1    0    0    1   
 $EndComp
@@ -1149,6 +1171,7 @@ F 0 "C103" H 4125 5500 50  0000 L CNN
 F 1 "1uF" H 4125 5300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4138 5250 50  0001 C CNN
 F 3 "" H 4100 5400 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4100 5400
 	1    0    0    -1  
 $EndComp

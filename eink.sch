@@ -57,6 +57,7 @@ F 0 "P301" H 7900 5250 50  0000 C CNN
 F 1 "eInk" V 8000 4000 50  0000 C CNN
 F 2 "libs:FPC_0.5mm_Pitch_24_Pin" H 7900 4000 50  0001 C CNN
 F 3 "" H 7900 4000 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_11604.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7900 4000
 	1    0    0    1   
 $EndComp
@@ -85,9 +86,10 @@ L C C304
 U 1 1 59A6AB00
 P 7200 3150
 F 0 "C304" H 7100 3250 50  0000 L CNN
-F 1 "1uF" H 7050 3050 50  0000 L CNN
+F 1 "1uF 25V" H 7050 3050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7238 3000 50  0001 C CNN
 F 3 "" H 7200 3150 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7200 3150
 	0    1    1    0   
 $EndComp
@@ -96,9 +98,10 @@ L C C305
 U 1 1 59A6AB07
 P 7000 3250
 F 0 "C305" H 7050 3350 50  0000 L CNN
-F 1 "1uF" H 7050 3150 50  0000 L CNN
+F 1 "1uF 25V" H 7050 3150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7038 3100 50  0001 C CNN
 F 3 "" H 7000 3250 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7000 3250
 	0    1    1    0   
 $EndComp
@@ -122,9 +125,10 @@ L C C308
 U 1 1 59A6AB16
 P 6900 4400
 F 0 "C308" H 6950 4500 50  0000 L CNN
-F 1 "1uF" H 6950 4300 50  0000 L CNN
+F 1 "1uF 25V" H 6950 4300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6938 4250 50  0001 C CNN
 F 3 "" H 6900 4400 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    6900 4400
 	-1   0    0    1   
 $EndComp
@@ -133,9 +137,10 @@ L C C309
 U 1 1 59A6AB1D
 P 7100 4400
 F 0 "C309" H 7150 4500 50  0000 L CNN
-F 1 "1uF" H 7150 4300 50  0000 L CNN
+F 1 "1uF 25V" H 7150 4300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 4250 50  0001 C CNN
 F 3 "" H 7100 4400 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7100 4400
 	-1   0    0    1   
 $EndComp
@@ -158,9 +163,10 @@ L C C310
 U 1 1 59A6AB2B
 P 7100 4750
 F 0 "C310" V 7050 4850 50  0000 L CNN
-F 1 "1uF" V 7050 4550 50  0000 L CNN
+F 1 "1uF 25V" V 7050 4550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 4600 50  0001 C CNN
 F 3 "" H 7100 4750 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7100 4750
 	0    1    1    0   
 $EndComp
@@ -169,9 +175,10 @@ L C C311
 U 1 1 59A6AB32
 P 7100 4950
 F 0 "C311" V 7050 5050 50  0000 L CNN
-F 1 "1uF" V 7050 4750 50  0000 L CNN
+F 1 "1uF 25V" V 7050 4750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 4800 50  0001 C CNN
 F 3 "" H 7100 4950 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7100 4950
 	0    1    1    0   
 $EndComp
@@ -180,9 +187,10 @@ L C C312
 U 1 1 59A6AB39
 P 7100 5150
 F 0 "C312" V 7050 5250 50  0000 L CNN
-F 1 "1uF" V 7050 4950 50  0000 L CNN
+F 1 "1uF 25V" V 7050 4950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 5000 50  0001 C CNN
 F 3 "" H 7100 5150 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7100 5150
 	0    1    1    0   
 $EndComp
@@ -297,6 +305,7 @@ F 4 "311-12.0KHRCT-ND" V -7900 2550 60  0001 C CNN "Digikey PN"
 F 5 "http://www.digikey.com.au/product-detail/en/yageo/RC0603FR-0712KL/311-12.0KHRCT-ND/729860" V -7900 2550 60  0001 C CNN "Link"
 F 6 "RC0603FR-0712KL" V -7900 2550 60  0001 C CNN "Manufacturer PN"
 F 7 "0.10" V -7900 2550 60  0001 C CNN "Unit Cost"
+F 8 "http://www.szlcsc.com/product/details_16080.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    1500 1150
 	0    -1   -1   0   
 $EndComp
@@ -308,6 +317,7 @@ F 0 "C301" V 1700 1500 50  0000 L CNN
 F 1 "1uF" V 1700 1200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1788 1250 50  0001 C CNN
 F 3 "" H 1750 1400 50  0000 C CNN
+F 4 "http://www.szlcsc.com/product/details_94382.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    1750 1400
 	-1   0    0    1   
 $EndComp
@@ -360,6 +370,7 @@ F 0 "C307" H 3075 4300 50  0000 L CNN
 F 1 "10uF 6.3V" H 3075 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3088 4050 50  0001 C CNN
 F 3 "" H 3050 4200 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_42881.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3050 4200
 	1    0    0    -1  
 $EndComp
@@ -374,6 +385,7 @@ F 3 "" H 3350 3950 50  0001 C CNN
 F 4 "CBC3225T680KR" V 3350 3950 60  0001 C CNN "MPN"
 F 5 "587-3070-1-ND" V 3350 3950 60  0001 C CNN "Digikey PN"
 F 6 "FIXED IND 68UH 410MA 1.3 OHM 1210 SMD" V 3350 3950 60  0001 C CNN "Description"
+F 7 "http://www.szlcsc.com/product/details_61593.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3350 3950
 	0    -1   -1   0   
 $EndComp
@@ -385,6 +397,7 @@ F 0 "D301" H 3650 3400 50  0000 C CNN
 F 1 "SD103AWS" H 3650 3200 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323" H 3650 3300 50  0001 C CNN
 F 3 "" H 3650 3300 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_110425.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3650 3300
 	0    1    1    0   
 $EndComp
@@ -396,6 +409,7 @@ F 0 "C302" V 3100 2900 50  0000 L CNN
 F 1 "1uF 50V" V 3400 2800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3288 2850 50  0001 C CNN
 F 3 "" H 3250 3000 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_16531.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3250 3000
 	0    1    1    0   
 $EndComp
@@ -407,6 +421,7 @@ F 0 "D302" H 4250 3400 50  0000 C CNN
 F 1 "SD103AWS" H 4250 3200 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323" H 4250 3300 50  0001 C CNN
 F 3 "" H 4250 3300 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_110425.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4250 3300
 	0    1    1    0   
 $EndComp
@@ -418,6 +433,7 @@ F 0 "C303" V 4400 2900 50  0000 L CNN
 F 1 "1uF 50V" V 4700 2850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 2850 50  0001 C CNN
 F 3 "" H 4550 3000 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_16531.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4550 3000
 	0    1    1    0   
 $EndComp
@@ -429,6 +445,7 @@ F 0 "D303" H 4850 3400 50  0000 C CNN
 F 1 "SD103AWS" H 4850 3200 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-323" H 4850 3300 50  0001 C CNN
 F 3 "" H 4850 3300 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_110425.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4850 3300
 	0    -1   -1   0   
 $EndComp
@@ -438,8 +455,9 @@ U 1 1 59A8246C
 P 4550 3750
 F 0 "C306" H 4575 3850 50  0000 L CNN
 F 1 "4.7uF 50V" H 4150 3850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 3600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4588 3600 50  0001 C CNN
 F 3 "" H 4550 3750 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_107126.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4550 3750
 	-1   0    0    1   
 $EndComp
@@ -451,6 +469,7 @@ F 0 "R302" V 4280 4700 50  0000 C CNN
 F 1 "0.47R, 1%" V 4100 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4130 4700 50  0001 C CNN
 F 3 "" H 4200 4700 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_24144.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4200 4700
 	1    0    0    -1  
 $EndComp
@@ -575,6 +594,7 @@ F 0 "Q301" H 4500 4250 50  0000 L CNN
 F 1 "IRLML0030TRPBF" H 4450 4050 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4500 4300 50  0001 C CNN
 F 3 "" H 4300 4200 50  0001 C CNN
+F 4 "http://www.szlcsc.com/product/details_68364.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4300 4200
 	-1   0    0    -1  
 $EndComp
