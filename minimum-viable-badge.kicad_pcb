@@ -2805,7 +2805,7 @@
       (net 29 "Net-(C102-Pad1)"))
   )
 
-  (module libs:SK12D07VG5 (layer B.Cu) (tedit 59ABE6BF) (tstamp 59ABE83C)
+  (module libs:SK12D07VG3 (layer B.Cu) (tedit 59ABE6BF) (tstamp 59ABE83C)
     (at 81.68 78.13483)
     (path /592826E7/59286658)
     (fp_text reference SW201 (at 1.24 1.56) (layer B.SilkS)
