@@ -1,4 +1,4 @@
-update=3/09/2017 2:29:47 AM
+update=Mon 11 Sep 2017 20:05:28 AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,7 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=subs/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Shem-Lib
-LibName32=libs/cp2102
-LibName33=libs/NCP5501
-LibName34=libs/mcp73831
-LibName35=libs/q_pmos_gds
+LibName32=minimum-viable-badge-parts
