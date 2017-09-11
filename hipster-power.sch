@@ -275,7 +275,7 @@ Wire Wire Line
 	4400 4450 4400 4350
 Connection ~ 4400 4350
 Wire Wire Line
-	3900 4650 3900 4900
+	3900 4750 3900 4900
 Wire Wire Line
 	4400 4850 4400 4750
 Wire Wire Line
