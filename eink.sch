@@ -30,10 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ESP32-footprints-Shem-Lib
-LIBS:cp2102
-LIBS:NCP5501
-LIBS:mcp73831
-LIBS:q_pmos_gds
+LIBS:minimum-viable-badge-parts
 LIBS:minimum-viable-badge-cache
 EELAYER 25 0
 EELAYER END
