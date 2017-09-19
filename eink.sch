@@ -56,7 +56,7 @@ F 2 "libs:FPC_0.5mm_Pitch_24_Pin" H 7900 4000 50  0001 C CNN
 F 3 "" H 7900 4000 50  0000 C CNN
 F 4 "http://www.szlcsc.com/product/details_11604.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    7900 4000
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR027

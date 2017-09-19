@@ -783,17 +783,17 @@ F 3 "" H 9800 5150 50  0000 C CNN
 	1    9800 5150
 	1    0    0    -1  
 $EndComp
-Text Label 9050 2600 2    60   ~ 0
-EINK_BUSY
-Text Label 9050 2500 2    60   ~ 0
-EINK_RST
-Text Label 9050 2400 2    60   ~ 0
-EINK_D/C
-Text Label 9050 2300 2    60   ~ 0
-EINK_CS
-Text Label 9050 2200 2    60   ~ 0
-EINK_SCLK
 Text Label 9050 2100 2    60   ~ 0
+EINK_BUSY
+Text Label 9050 2200 2    60   ~ 0
+EINK_RST
+Text Label 9050 2300 2    60   ~ 0
+EINK_D/C
+Text Label 9050 2400 2    60   ~ 0
+EINK_CS
+Text Label 9050 2500 2    60   ~ 0
+EINK_SCLK
+Text Label 9050 2600 2    60   ~ 0
 EINK_MOSI
 Wire Wire Line
 	5600 1650 6400 1650
@@ -856,17 +856,17 @@ Connection ~ 8400 2900
 Wire Wire Line
 	8250 2700 9050 2700
 Wire Wire Line
-	8250 2600 9050 2600
-Wire Wire Line
-	8250 2500 9050 2500
-Wire Wire Line
-	8250 2400 9050 2400
-Wire Wire Line
-	8250 2300 9050 2300
+	8250 2100 9050 2100
 Wire Wire Line
 	8250 2200 9050 2200
 Wire Wire Line
-	8250 2100 9050 2100
+	8250 2300 9050 2300
+Wire Wire Line
+	8250 2400 9050 2400
+Wire Wire Line
+	8250 2500 9050 2500
+Wire Wire Line
+	8250 2600 9050 2600
 Wire Wire Line
 	8250 1900 9050 1900
 Wire Wire Line
