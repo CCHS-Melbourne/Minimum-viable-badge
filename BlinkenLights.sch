@@ -1,0 +1,235 @@
+EESchema Schematic File Version 2
+LIBS:minimum-viable-badge-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:minimum-viable-badge-parts
+LIBS:minimum-viable-badge-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1800 1700 0    60   Input ~ 0
+LED_DATA_IN
+$Comp
+L Q_NMOS_GSD Q401
+U 1 1 59C7499A
+P 3450 2500
+F 0 "Q401" H 3650 2550 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 3650 2450 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3650 2600 50  0001 C CNN
+F 3 "" H 3450 2500 50  0001 C CNN
+	1    3450 2500
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 2150 0    60   Input ~ 0
+LED_EN
+$Comp
+L R R402
+U 1 1 59C74BFF
+P 3150 2750
+F 0 "R402" V 3230 2750 50  0000 C CNN
+F 1 "12K" V 3150 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3080 2750 50  0001 C CNN
+F 3 "" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 59C74C4A
+P 3550 3100
+F 0 "#PWR036" H 3550 2850 50  0001 C CNN
+F 1 "GND" H 3550 2950 50  0000 C CNN
+F 2 "" H 3550 3100 50  0001 C CNN
+F 3 "" H 3550 3100 50  0001 C CNN
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 1000 0    60   Input ~ 0
+LED_VIN
+$Comp
+L WS2812B LED401
+U 1 1 59C73806
+P 3850 1550
+F 0 "LED401" H 4200 1050 50  0000 C CNN
+F 1 "WS2812B" H 3850 1050 50  0000 C CNN
+F 2 "libs:WS2812B" H 4100 950 60  0001 C CIN
+F 3 "" H 3850 1550 60  0000 C CNN
+	1    3850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R401
+U 1 1 59C7397F
+P 2850 1700
+F 0 "R401" V 2930 1700 50  0000 C CNN
+F 1 "470R" V 2850 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 1700 50  0001 C CNN
+F 3 "" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C401
+U 1 1 59C73EAE
+P 2150 1250
+F 0 "C401" H 2175 1350 50  0000 L CNN
+F 1 "4.7uF" H 2175 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 1100 50  0001 C CNN
+F 3 "" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	1    0    0    -1  
+$EndComp
+Text Label 3600 2200 0    60   ~ 0
+LED_GND
+Text Label 2150 1500 0    60   ~ 0
+LED_GND
+$Comp
+L WS2812B LED402
+U 1 1 59C7487D
+P 5150 1550
+F 0 "LED402" H 5500 1050 50  0000 C CNN
+F 1 "WS2812B" H 5150 1050 50  0000 C CNN
+F 2 "libs:WS2812B" H 5400 950 60  0001 C CNN
+F 3 "" H 5150 1550 60  0000 C CNN
+	1    5150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED403
+U 1 1 59C748E7
+P 6450 1550
+F 0 "LED403" H 6800 1050 50  0000 C CNN
+F 1 "WS2812B" H 6450 1050 50  0000 C CNN
+F 2 "libs:WS2812B" H 6700 950 60  0001 C CNN
+F 3 "" H 6450 1550 60  0000 C CNN
+	1    6450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED404
+U 1 1 59C7493C
+P 7750 1550
+F 0 "LED404" H 8100 1050 50  0000 C CNN
+F 1 "WS2812B" H 7750 1050 50  0000 C CNN
+F 2 "libs:WS2812B" H 8000 950 60  0001 C CNN
+F 3 "" H 7750 1550 60  0000 C CNN
+	1    7750 1550
+	1    0    0    -1  
+$EndComp
+Text HLabel 9100 1700 2    60   Input ~ 0
+LED_DATA_OUT
+Wire Wire Line
+	2750 2500 3250 2500
+Wire Wire Line
+	3150 2600 3150 2500
+Connection ~ 3150 2500
+Wire Wire Line
+	3550 2700 3550 3100
+Wire Wire Line
+	3550 3000 3150 3000
+Wire Wire Line
+	3150 3000 3150 2900
+Connection ~ 3550 3000
+Wire Wire Line
+	3000 1700 3300 1700
+Wire Wire Line
+	2700 1700 1800 1700
+Wire Wire Line
+	2750 2500 2750 2150
+Wire Wire Line
+	2750 2150 1800 2150
+Wire Wire Line
+	1800 1000 7450 1000
+Wire Wire Line
+	3550 1000 3550 1250
+Wire Wire Line
+	2150 1100 2150 1000
+Connection ~ 2150 1000
+Wire Wire Line
+	2150 1500 2150 1400
+Wire Wire Line
+	3550 2300 3550 2150
+Wire Wire Line
+	3550 2200 7450 2200
+Connection ~ 3550 2200
+Wire Wire Line
+	2150 1500 2400 1500
+Wire Wire Line
+	4400 1700 4600 1700
+Wire Wire Line
+	4850 2200 4850 2150
+Wire Wire Line
+	6150 2200 6150 2150
+Connection ~ 4850 2200
+Wire Wire Line
+	7450 2200 7450 2150
+Connection ~ 6150 2200
+Wire Wire Line
+	7450 1000 7450 1250
+Connection ~ 3550 1000
+Wire Wire Line
+	4850 1250 4850 1000
+Connection ~ 4850 1000
+Wire Wire Line
+	6150 1250 6150 1000
+Connection ~ 6150 1000
+Wire Wire Line
+	5700 1700 5900 1700
+Wire Wire Line
+	7000 1700 7200 1700
+Wire Wire Line
+	8300 1700 9100 1700
+$Comp
+L PWR_FLAG #FLG037
+U 1 1 59C7A960
+P 4500 2300
+F 0 "#FLG037" H 4500 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 4500 2450 50  0000 C CNN
+F 2 "" H 4500 2300 50  0001 C CNN
+F 3 "" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2300 4500 2200
+Connection ~ 4500 2200
+$EndSCHEMATC

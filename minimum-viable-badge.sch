@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -645,23 +645,24 @@ $EndComp
 Text Label 3950 2050 2    60   ~ 0
 BAT+
 $Sheet
-S 2800 1200 1000 450 
+S 2800 1200 1150 500 
 U 592826E7
 F0 "hipster-power" 60
 F1 "hipster-power.sch" 60
 F2 "USB_PWR" I L 2800 1350 60 
 F3 "VBAT" I L 2800 1550 60 
-F4 "3.3OUT" I R 3800 1350 60 
+F4 "3.3OUT" I R 3950 1350 60 
+F5 "VIN_SWITCHED" I R 3950 1550 60 
 $EndSheet
 $Comp
 L +3.3V #PWR016
 U 1 1 59288975
-P 4050 1300
-F 0 "#PWR016" H 4050 1150 50  0001 C CNN
-F 1 "+3.3V" H 4050 1440 50  0000 C CNN
-F 2 "" H 4050 1300 50  0000 C CNN
-F 3 "" H 4050 1300 50  0000 C CNN
-	1    4050 1300
+P 4200 1300
+F 0 "#PWR016" H 4200 1150 50  0001 C CNN
+F 1 "+3.3V" H 4200 1440 50  0000 C CNN
+F 2 "" H 4200 1300 50  0000 C CNN
+F 3 "" H 4200 1300 50  0000 C CNN
+	1    4200 1300
 	1    0    0    -1  
 $EndComp
 Text Label 2350 1550 0    60   ~ 0
@@ -1046,9 +1047,9 @@ Wire Wire Line
 	3700 2450 3700 2550
 Connection ~ 3700 2050
 Wire Wire Line
-	3800 1350 4050 1350
+	3950 1350 4200 1350
 Wire Wire Line
-	4050 1350 4050 1300
+	4200 1350 4200 1300
 Wire Wire Line
 	2800 1550 2350 1550
 Wire Wire Line
@@ -1268,12 +1269,44 @@ Wire Wire Line
 NoConn ~ 3600 2000
 Text Label 8250 5700 2    60   ~ 0
 IO0
-Text Label 8250 5500 2    60   ~ 0
-IO22
-Text Label 8250 5400 2    60   ~ 0
-IO23
 Text Label 8550 1900 2    60   ~ 0
 IO21
 NoConn ~ 5500 1950
 NoConn ~ 5600 2050
+$Sheet
+S 9050 3800 1500 650 
+U 59C74472
+F0 "LED BlinkenLights" 60
+F1 "BlinkenLights.sch" 60
+F2 "LED_DATA_IN" I L 9050 4200 60 
+F3 "LED_EN" I L 9050 4100 60 
+F4 "LED_VIN" I L 9050 4000 60 
+F5 "LED_DATA_OUT" I R 10550 4200 60 
+$EndSheet
+Text Notes 9400 3650 0    118  ~ 0
+LEDs
+Wire Wire Line
+	10550 4200 11050 4200
+Text Label 10650 4200 0    60   ~ 0
+LED_DOUT
+Text Label 8050 5500 0    60   ~ 0
+LED_DOUT
+Wire Wire Line
+	3950 1550 4400 1550
+Text Label 4000 1550 0    60   ~ 0
+LED_VIN
+Text Label 8950 4000 2    60   ~ 0
+LED_VIN
+Wire Wire Line
+	9050 4000 8600 4000
+Wire Wire Line
+	9050 4100 8600 4100
+Wire Wire Line
+	9050 4200 8600 4200
+Text Label 8600 4100 0    60   ~ 0
+IO22
+Text Label 8600 4200 0    60   ~ 0
+IO23
+Text Label 8250 5400 2    60   ~ 0
+IO23
 $EndSCHEMATC
