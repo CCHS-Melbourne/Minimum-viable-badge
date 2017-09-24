@@ -3,7 +3,7 @@
   (general
     (links 205)
     (no_connects 0)
-    (area 24.78251 23.847613 144.890001 90.450001)
+    (area 18.357144 22.248029 148.281495 93.100001)
     (thickness 1.6)
     (drawings 180)
     (tracks 1177)
@@ -3702,13 +3702,13 @@
     )
   )
 
-  (module libs:Edge_Connector_S20-2.54-5_bottomsideonly (layer F.Cu) (tedit 59C750AA) (tstamp 59C7840D)
+  (module libs:Edge_Connector_S20-2.54-5_bottomsideonly (layer F.Cu) (tedit 59C75876) (tstamp 59C7840D)
     (at 75.795799 89.25)
     (path /59A46FD4)
-    (fp_text reference J101 (at -0.01 0.92) (layer F.SilkS)
+    (fp_text reference J101 (at -0.01 -9.25) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value EDGE_CONNECTOR (at 0 -9.2) (layer F.SilkS)
+    (fp_text value EDGE_CONNECTOR (at 0 -9.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -16.4 -7) (end -16.4 1) (layer B.CrtYd) (width 0.15))
