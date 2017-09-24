@@ -295,7 +295,7 @@ L R R301
 U 1 1 59A6AB7B
 P 1500 1150
 F 0 "R301" V 1580 1150 50  0000 C CNN
-F 1 "0R" V 1500 1150 50  0000 C CNN
+F 1 "0R NP" V 1400 1150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1430 1150 50  0001 C CNN
 F 3 "" H 1500 1150 50  0000 C CNN
 F 4 "311-12.0KHRCT-ND" V -7900 2550 60  0001 C CNN "Digikey PN"
@@ -358,14 +358,14 @@ Connection ~ 6750 3550
 Connection ~ 7100 4250
 Connection ~ 6900 4250
 Text Notes 2650 1350 0    60   ~ 0
-For Good Display display:\n- Populate 0R resistor for LCD_VDD\n- Use component values as marked\n\nFor DKE display:\n- Remove 0R resistor\n- Modify gate drive switching circuit component values as per datasheet.
+DKE display components shown:\n\nTo use Good Display display:\n- Populate 0R resistor for LCD_VDD\n- Use component values as per datasheet.
 $Comp
 L C C307
 U 1 1 59A81C6B
 P 3050 4200
 F 0 "C307" H 3075 4300 50  0000 L CNN
-F 1 "10uF 6.3V" H 3075 4100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3088 4050 50  0001 C CNN
+F 1 "1uF 25V" H 3075 4100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 4050 50  0001 C CNN
 F 3 "" H 3050 4200 50  0001 C CNN
 F 4 "http://www.szlcsc.com/product/details_42881.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3050 4200
@@ -376,13 +376,13 @@ L L L301
 U 1 1 59A81C13
 P 3350 3950
 F 0 "L301" V 3300 3950 50  0000 C CNN
-F 1 "68uH 410MA" V 3425 3950 50  0000 C CNN
+F 1 "47uH 410MA" V 3425 3950 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1210_HandSoldering" H 3350 3950 50  0001 C CNN
 F 3 "" H 3350 3950 50  0001 C CNN
-F 4 "CBC3225T680KR" V 3350 3950 60  0001 C CNN "MPN"
-F 5 "587-3070-1-ND" V 3350 3950 60  0001 C CNN "Digikey PN"
-F 6 "FIXED IND 68UH 410MA 1.3 OHM 1210 SMD" V 3350 3950 60  0001 C CNN "Description"
-F 7 "http://www.szlcsc.com/product/details_61593.html" H 7350 2250 60  0001 C CNN "LCSC"
+F 4 "CBC3225T470KR" V 3350 3950 60  0001 C CNN "MPN"
+F 5 "587-3069-2-ND " V 3350 3950 60  0001 C CNN "Digikey PN"
+F 6 "FIXED IND 47UH 410MA 1.3 OHM 1210 SMD" V 3350 3950 60  0001 C CNN "Description"
+F 7 "C113070" H 7350 2250 60  0001 C CNN "LCSC"
 	1    3350 3950
 	0    -1   -1   0   
 $EndComp
@@ -403,7 +403,7 @@ L C C302
 U 1 1 59A81B7E
 P 3250 3000
 F 0 "C302" V 3100 2900 50  0000 L CNN
-F 1 "1uF 50V" V 3400 2800 50  0000 L CNN
+F 1 "1uF 25V" V 3400 2800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3288 2850 50  0001 C CNN
 F 3 "" H 3250 3000 50  0001 C CNN
 F 4 "http://www.szlcsc.com/product/details_16531.html" H 7350 2250 60  0001 C CNN "LCSC"
@@ -427,7 +427,7 @@ L C C303
 U 1 1 59A822E9
 P 4550 3000
 F 0 "C303" V 4400 2900 50  0000 L CNN
-F 1 "1uF 50V" V 4700 2850 50  0000 L CNN
+F 1 "1uF 25V" V 4700 2850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 2850 50  0001 C CNN
 F 3 "" H 4550 3000 50  0001 C CNN
 F 4 "http://www.szlcsc.com/product/details_16531.html" H 7350 2250 60  0001 C CNN "LCSC"
@@ -451,8 +451,8 @@ L C C306
 U 1 1 59A8246C
 P 4550 3750
 F 0 "C306" H 4575 3850 50  0000 L CNN
-F 1 "4.7uF 50V" H 4150 3850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4588 3600 50  0001 C CNN
+F 1 "1uF 25V" H 4150 3850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 3600 50  0001 C CNN
 F 3 "" H 4550 3750 50  0001 C CNN
 F 4 "http://www.szlcsc.com/product/details_107126.html" H 7350 2250 60  0001 C CNN "LCSC"
 	1    4550 3750
@@ -463,7 +463,7 @@ L R R302
 U 1 1 59A82B3B
 P 4200 4700
 F 0 "R302" V 4280 4700 50  0000 C CNN
-F 1 "0.47R, 1%" V 4100 4700 50  0000 C CNN
+F 1 "2R7, 1%" V 4100 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4130 4700 50  0001 C CNN
 F 3 "" H 4200 4700 50  0001 C CNN
 F 4 "http://www.szlcsc.com/product/details_24144.html" H 7350 2250 60  0001 C CNN "LCSC"
